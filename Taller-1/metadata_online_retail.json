@@ -1,0 +1,159 @@
+{
+  "InvoiceNo": {
+    "dtype": "object",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 25900,
+    "sample": [
+      "536365",
+      "536366",
+      "536367",
+      "536368",
+      "536369"
+    ]
+  },
+  "StockCode": {
+    "dtype": "object",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 4070,
+    "sample": [
+      "85123A",
+      "71053",
+      "84406B",
+      "84029G",
+      "84029E"
+    ]
+  },
+  "Description": {
+    "dtype": "object",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 4212,
+    "sample": [
+      "WHITE HANGING HEART T-LIGHT HOLDER",
+      "WHITE METAL LANTERN",
+      "CREAM CUPID HEARTS COAT HANGER",
+      "KNITTED UNION FLAG HOT WATER BOTTLE",
+      "RED WOOLLY HOTTIE WHITE HEART."
+    ]
+  },
+  "Quantity": {
+    "dtype": "int64",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 722,
+    "sample": [
+      6,
+      8,
+      2,
+      32,
+      3
+    ],
+    "min": -80995.0,
+    "max": 80995.0,
+    "mean": 9.620029032444409
+  },
+  "InvoiceDate": {
+    "dtype": "datetime64[ns]",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 23260,
+    "sample": [
+      "2010-12-01 08:26:00",
+      "2010-12-01 08:28:00",
+      "2010-12-01 08:34:00",
+      "2010-12-01 08:35:00",
+      "2010-12-01 08:45:00"
+    ],
+    "min_date": "2010-12-01 08:26:00",
+    "max_date": "2011-12-09 12:50:00"
+  },
+  "UnitPrice": {
+    "dtype": "float64",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 1630,
+    "sample": [
+      2.55,
+      3.39,
+      2.75,
+      7.65,
+      4.25
+    ],
+    "min": -11062.06,
+    "max": 38970.0,
+    "mean": 4.632655674836623
+  },
+  "CustomerID": {
+    "dtype": "float64",
+    "non_null": 401604,
+    "nulls": 135037,
+    "unique": 4372,
+    "sample": [
+      17850.0,
+      13047.0,
+      12583.0,
+      13748.0,
+      15100.0
+    ],
+    "min": 12346.0,
+    "max": 18287.0,
+    "mean": 15281.160817621338
+  },
+  "Country": {
+    "dtype": "object",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 38,
+    "sample": [
+      "United Kingdom",
+      "France",
+      "Australia",
+      "Netherlands",
+      "Germany"
+    ]
+  },
+  "is_return": {
+    "dtype": "bool",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 2,
+    "sample": [
+      false,
+      true
+    ],
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.019728272718633127
+  },
+  "invoice_is_credit": {
+    "dtype": "bool",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 2,
+    "sample": [
+      false,
+      true
+    ],
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.017238712658928408
+  },
+  "TotalPrice": {
+    "dtype": "float64",
+    "non_null": 536641,
+    "nulls": 0,
+    "unique": 6204,
+    "sample": [
+      15.299999999999999,
+      20.34,
+      22.0,
+      15.3,
+      25.5
+    ],
+    "min": -168469.6,
+    "max": 168469.6,
+    "mean": 18.123861117581395
+  }
+}

@@ -1,0 +1,29 @@
+Dataset: Online Retail
+Filas: 536641
+Rango de fechas: 2010-12-01 08:26:00 a 2011-12-09 12:50:00
+Total revenue (excl. devoluciones): 10619986.68
+Clientes únicos (CustomerID): 4372
+
+Top 10 productos por revenue:
+1. DOTCOM POSTAGE -> 206248.77
+2. REGENCY CAKESTAND 3 TIER -> 174156.54
+3. PAPER CRAFT , LITTLE BIRDIE -> 168469.60
+4. WHITE HANGING HEART T-LIGHT HOLDER -> 106236.72
+5. PARTY BUNTING -> 99445.23
+6. JUMBO BAG RED RETROSPOT -> 94159.81
+7. MEDIUM CERAMIC TOP STORAGE JAR -> 81700.92
+8. POSTAGE -> 78101.88
+9. Manual -> 77752.82
+10. RABBIT NIGHT LIGHT -> 66870.03
+
+Top 10 países por revenue:
+1. United Kingdom -> 8979619.97
+2. Netherlands -> 285446.34
+3. EIRE -> 283140.52
+4. Germany -> 228678.40
+5. France -> 209625.37
+6. Australia -> 138453.81
+7. Spain -> 61558.56
+8. Switzerland -> 57067.60
+9. Belgium -> 41196.34
+10. Sweden -> 38367.83
