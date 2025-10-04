@@ -33,18 +33,21 @@ productos comprados, precio de los productos y fecha de compra).
 ventas a lo largo del tiempo.
   * Explorar los patrones estacionales en los datos de ventas e identificar los
 períodos de máximas ventas.
+
 **Parte 1: Clasificación de clientes:**
 * Definir una nueva columna en los datos para trabajar con dos clases: “Clientes
 Normales” y “Clientes Premium”. ¿Cómo podríamos definir estas categorías, por
 volumen de compras, cantidades, etc? Definir este campo.
 * Entrenar un modelo de clasificación para la clasificación de los clientes en estas
 dos categorías.
+
 **Parte 2: Segmentación de Clientes**
 * Usar el agrupamiento K-means para categorizar a los clientes en grupos distintos
 y analizar las características de cada segmento.
 * Usar el agrupamiento Mean Shift para categorizar a los clientes en grupos
 distintos y analizar las características de cada segmento.
 * Comparar los resultados de las dos técnicas anteriores
+
 **Parte 3: Predicción de Ventas**
 * Crear nuevas características, si es necesario, para ayudar en el modelado
 predictivo (por ejemplo, época del año, categorías de productos).
